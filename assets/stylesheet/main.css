@@ -120,7 +120,7 @@ div > input {
   border: none;
   height: 36px;
   border-radius: 4px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 0px;
   font-size: 0.8rem;
 }
 .nav-button:hover{
@@ -235,7 +235,7 @@ li:first-child: focus{
 	grid-column-gap: 20px;
 }
 .post {
-	/*background-color: white;*/
+	background-color: white;
 	display: flex;
 	margin-bottom: 10px;
 	border: 1px solid rgb(194, 193, 193);
@@ -394,6 +394,7 @@ li:first-child: focus{
 .rules-container{
 	margin: 40px 0 0px 40px;
 	background: #fff;
+	border-radius: 6px;
 }
 .rules-container .title{
 	padding: 20px 0 10px 20px;
@@ -436,4 +437,27 @@ li:first-child: focus{
 }
 .bundle:hover{
 	border: 1px solid #fff;
+}
+/* Footer Styles */
+.footer-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap-column: 0.5rem;
+}
+.footer-content{
+	margin: 40px 0 0px 40px;
+	background: #fff;
+	padding: 10px;
+	border-radius: 6px;
+	font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.footer-align{
+	text-align: center;
+	margin-top: 20px;
+}
+.footer-align-2{
+	display: inline-block;
 }
